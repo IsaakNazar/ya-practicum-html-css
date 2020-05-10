@@ -1,0 +1,10 @@
+.comments__grid-inner {
+    display: grid;
+    grid-template-rows: 140px max-content max-content;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__grid-inner {
+        grid-template-rows: 114px 46px max-content;
+    }
+}

@@ -1,0 +1,8 @@
+.video__image:first-child {
+    background: url("../../../../assets/images/videos/kamchatka.png") no-repeat center;
+}
+
+.video__image:last-child {
+    background: url("../../../../assets/images/videos/observatory.png") no-repeat center;
+    background-size: contain;
+}

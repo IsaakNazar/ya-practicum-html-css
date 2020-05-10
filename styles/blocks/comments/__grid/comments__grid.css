@@ -1,0 +1,36 @@
+.comments__grid {
+    max-width: 1184px;
+    margin: 0 auto 102px;
+    display: grid;
+    grid-gap: 19px;
+    grid-template-columns: repeat(3, auto);
+    text-align: left;
+}
+
+@media screen and (max-width: 1280px) {
+    .comments__grid {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .comments__grid {
+        grid-template-columns: auto;
+        max-width: 382px;
+        grid-gap: 48px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .comments__grid {
+        padding: 0 16px;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .comments__grid {
+        margin-bottom: 64px;
+    }
+}

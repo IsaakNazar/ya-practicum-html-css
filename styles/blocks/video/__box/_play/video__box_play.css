@@ -1,0 +1,19 @@
+.video__box_play {
+    cursor: pointer;
+    fill: white;
+    transition: all .15s;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.video__box_play:hover {
+    fill: aquamarine;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__box_play {
+        left: 20px;
+        top: 20px;
+    }
+}

@@ -1,15 +1,13 @@
+@import "_link/footer_link.css";
+
 .footer {
     display: grid;
     grid-template-columns: repeat(4, max-content) 1fr max-content;
     align-items: center;
     grid-gap: 18px;
     max-width: 1184px;
-    margin: 0 auto;
+    margin: 160px auto 0;
     padding-bottom: 48px;
-}
-
-.footer__link {
-    font-size: 24px;
 }
 
 .footer__copyright {
@@ -22,19 +20,10 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .footer__link {
-        font-size: 20px;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .footer {
         grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
-    }
-
-    .footer__link {
-        font-size: 16px;
+        margin-top: 102px;
     }
 }
 
@@ -42,12 +31,6 @@
     .footer {
         grid-gap: 32px;
         padding: 0 16px 24px;
+        margin-top: 64px;
     }
-
-    .footer__link {
-        font-size: 24px;
-    }
-}
-
-@media screen and (max-width: 320px) {
 }

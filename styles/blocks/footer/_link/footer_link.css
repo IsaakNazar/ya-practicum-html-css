@@ -1,0 +1,28 @@
+.footer_link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer_link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer_link {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer_link {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .footer_link {
+        font-size: 24px;
+    }
+}

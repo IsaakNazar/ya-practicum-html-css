@@ -1,15 +1,49 @@
+@import "_play/video__box_play.css";
+
 .video__box {
     position: relative;
+    height: calc(583px * 0.554);
+    border-radius: 5px;
 }
 
-.video__box:first-child {
-    background: url("../../../../assets/images/videos/kamchatka.png") no-repeat center;
+.video__box:before {
+    content: "";
+    position: absolute;
     width: 100%;
-    height: 400px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all .15s;
 }
 
-.video__box:last-child {
-    background: url("../../../../assets/images/videos/observatory.png") no-repeat center;
-    width: 100%;
-    height: 400px;
+.video__box:hover::before {
+    background: rgba(0, 0, 0, 0.2)
+}
+
+
+@media screen and (max-width: 1280px) {
+    .video__box {
+        height: calc(50vw * 0.55 - 33px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .video__box {
+        height: calc(50vw * 0.55 - 32px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__box {
+        height: calc(100vw * 0.55 - 30px);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__box {
+        height: calc(100vw * 0.55 - 20px);
+    }
 }

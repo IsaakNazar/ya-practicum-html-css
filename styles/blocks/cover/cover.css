@@ -1,0 +1,10 @@
+@import "__title/cover__title.css";
+@import "__subtitle/cover__subtitle.css";
+@import "__bg-image/cover__bg-image.css";
+@import "__content/cover__content.css";
+
+.cover {
+    position: relative;
+    max-width: 1184px;
+    margin: 0 auto;
+}

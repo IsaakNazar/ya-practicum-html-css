@@ -1,11 +1,46 @@
 @import "__box/video__box.css";
 @import "__info/video__info.css";
+@import "__image/video__image.css";
+@import "__time/video__time.css";
+@import "__subtitle/video__subtitle.css";
+@import "__title/video__title.css";
 
 .video {
     text-align: center;
 }
 
-.video__wrapper {
+.video__container {
     display: grid;
     grid-template-columns: auto auto;
+    grid-gap: 18px;
+    max-width: 1184px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .video__container {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .video__container {
+        grid-gap: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__container {
+        grid-template-columns: auto;
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__container {
+        grid-template-columns: auto;
+        grid-gap: 8px;
+        padding: 0 16px;
+    }
 }

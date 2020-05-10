@@ -1,0 +1,16 @@
+.comments__author {
+    font-weight: 900;
+    font-size: 14px;
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__author:last-child {
+        grid-row: 2;
+    }
+
+    .comments__author {
+        text-align: center;
+        margin: 0;
+    }
+}

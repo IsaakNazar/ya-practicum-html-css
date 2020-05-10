@@ -1,0 +1,40 @@
+.cover__subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 380px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .cover__subtitle {
+        margin-top: 0;
+        margin-bottom: 30px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+/*there is a big gap between 768 and 375, so 520 was added intentionally,
+reason - too big font size*/
+
+@media screen and (max-width: 520px) {
+    .cover__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

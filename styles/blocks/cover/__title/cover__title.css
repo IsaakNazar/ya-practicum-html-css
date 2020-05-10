@@ -1,0 +1,39 @@
+.cover__title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    margin-top: 180px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        margin-top: 160px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        font-size: 54px;
+        line-height: 58px;
+    }
+}
+
+/*there is a big gap between 768 and 375, so 520 was added intentionally,
+reason - too big font size*/
+
+@media screen and (max-width: 520px) {
+    .cover__title {
+        font-size: 36px;
+        line-height: 35px;
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin: 110px 0 15px;
+    }
+}
