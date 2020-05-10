@@ -1,0 +1,21 @@
+.lead__image_caption {
+    text-align: left;
+    font-size: 10px;
+    margin-top: 10px;
+    letter-spacing: 0.15em;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .lead__image_caption {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .lead__image_caption {
+        margin-left: 16px;
+        margin-top: 8px;
+    }
+}

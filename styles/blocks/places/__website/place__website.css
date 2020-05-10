@@ -1,0 +1,25 @@
+@import "_head/place__website_head.css";
+@import "_url/place__website_url.css";
+
+.place__website {
+    position: relative;
+}
+
+.place__website_absolute {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__website {
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .place__website {
+        display: none;
+    }
+}

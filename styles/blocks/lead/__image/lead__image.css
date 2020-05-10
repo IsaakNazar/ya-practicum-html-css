@@ -1,0 +1,15 @@
+@import "lead__image_bg.css";
+@import "lead__image_caption.css";
+
+.lead__image {
+    max-width: 984px;
+    margin: 78px auto;
+}
+
+
+@media screen and (max-width: 375px) {
+    .lead__image {
+        margin-top: 30px;
+        margin-bottom: 64px;
+    }
+}

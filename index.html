@@ -21,16 +21,14 @@
             <h1 class="lead__title">Путешествия по России</h1>
             <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
             <div class="lead__image">
-                <div class="lead__image_bg">
-                    <img alt="roadmap" class="lead__image_map" src="assets/images/roadmap.png">
-                </div>
+                <img alt="in a wagon" class="lead__image_bg" src="assets/images/lead.jpg">
                 <p class="lead__image_caption">ВАША ПОЛКА - ВЕРХНЯЯ</p>
             </div>
         </section>
 
-        <section class="preface">
-            <h1 class="preface__title">Чего мы там не видели?</h1>
-            <p class="preface__article">
+        <section class="intro">
+            <h1 class="intro__title">Чего мы там не видели?</h1>
+            <p class="intro__article">
                 По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
                 провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле,
                 Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми
@@ -40,35 +38,37 @@
                 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места,
                 достойные вашего отпуска.
             </p>
-            <div class="preface__info">
-                <div class="preface__info_text"><span class="bold">Часовых поясов</span> 11</div>
-                <div class="preface__info_text"><span class="bold">Объектов природного наследия ЮНЕСКО</span> 12</div>
-                <div class="preface__info_text"><span class="bold">Объектов культурного наследия ЮНЕСКО</span> 16</div>
-                <div class="preface__info_text"><span class="bold">Природных заповедников</span> 105</div>
-                <div class="preface__info_text"><span class="bold">Аэропортов</span> 241</div>
-            </div>
+            <ul class="intro__info">
+                <li class="intro__list"><span class="intro__list_bold">Часовых поясов</span> 11</li>
+                <li class="intro__list"><span class="intro__list_bold">Объектов природного наследия ЮНЕСКО</span> 12
+                </li>
+                <li class="intro__list"><span class="intro__list_bold">Объектов культурного наследия ЮНЕСКО</span> 16
+                </li>
+                <li class="intro__list"><span class="intro__list_bold">Природных заповедников</span> 105</li>
+                <li class="intro__list"><span class="intro__list_bold">Аэропортов</span> 241</li>
+            </ul>
         </section>
 
-        <section class="gallery">
-            <img alt="in a wagon" class="gallery__photo" src="assets/images/Russia/item_1.png">
-            <img alt="mountains" class="gallery__photo" src="assets/images/Russia/item_2.png">
-            <img alt="wolf" class="gallery__photo" src="assets/images/Russia/item_3.png">
-            <img alt="forest" class="gallery__photo" src="assets/images/Russia/item_4.png">
-            <img alt="ice" class="gallery__photo" src="assets/images/Russia/item_5.png">
-            <img alt="beach" class="gallery__photo" src="assets/images/Russia/item_6.png">
-            <img alt="mountains" class="gallery__photo" src="assets/images/Russia/item_7.png">
-            <img alt="road sign" class="gallery__photo" src="assets/images/Russia/item_8.png">
-            <img alt="mountains" class="gallery__photo" src="assets/images/Russia/item_9.png">
-            <img alt="mountains" class="gallery__photo" src="assets/images/Russia/item_10.png">
-            <img alt="rock" class="gallery__photo" src="assets/images/Russia/item_11.png">
-            <img alt="cloudy" class="gallery__photo" src="assets/images/Russia/item_12.png">
+        <section class="photo-grid">
+            <img alt="in a wagon" class="photo-grid__item" src="assets/images/Russia/item_1.png">
+            <img alt="mountains" class="photo-grid__item" src="assets/images/Russia/item_2.png">
+            <img alt="wolf" class="photo-grid__item" src="assets/images/Russia/item_3.png">
+            <img alt="forest" class="photo-grid__item" src="assets/images/Russia/item_4.png">
+            <img alt="ice" class="photo-grid__item" src="assets/images/Russia/item_5.png">
+            <img alt="beach" class="photo-grid__item" src="assets/images/Russia/item_6.png">
+            <img alt="mountains" class="photo-grid__item" src="assets/images/Russia/item_7.png">
+            <img alt="road sign" class="photo-grid__item" src="assets/images/Russia/item_8.png">
+            <img alt="mountains" class="photo-grid__item" src="assets/images/Russia/item_9.png">
+            <img alt="mountains" class="photo-grid__item" src="assets/images/Russia/item_10.png">
+            <img alt="rock" class="photo-grid__item" src="assets/images/Russia/item_11.png">
+            <img alt="cloudy" class="photo-grid__item" src="assets/images/Russia/item_12.png">
         </section>
 
         <section class="places">
             <div class="place">
                 <h1 class="place__title">Куршская коса</h1>
                 <div class="place__website">
-                    <div class="absolute">
+                    <div class="place__website_absolute">
                         <div class="place__website_head">URL</div>
                         <a class="place__website_url" href="http://park-kosa.ru/" target="_blank">park-kosa.ru</a>
                     </div>
@@ -94,7 +94,7 @@
             <div class="place">
                 <h1 class="place__title">Кольский</h1>
                 <div class="place__website">
-                    <div class="absolute">
+                    <div class="place__website_absolute">
                         <div class="place__website_head">URL</div>
                         <a class="place__website_url"
                            href="https://www.nationalgeographic.com/"
@@ -121,7 +121,7 @@
             <div class="place">
                 <h1 class="place__title">Алтай</h1>
                 <div class="place__website">
-                    <div class="absolute">
+                    <div class="place__website_absolute">
                         <div class="place__website_head">URL</div>
                         <a class="place__website_url" href="https://www.facebook.com/" target="_blank">Facebook</a>
                     </div>
@@ -145,7 +145,7 @@
             <div class="place">
                 <h1 class="place__title">Зимний Байкал</h1>
                 <div class="place__website">
-                    <div class="absolute">
+                    <div class="place__website_absolute">
                         <div class="place__website_head">URL</div>
                         <a class="place__website_url"
                            href="https://vk.com/baikalmile"
@@ -171,7 +171,7 @@
             <div class="place">
                 <h1 class="place__title">Карелия</h1>
                 <div class="place__website">
-                    <div class="absolute">
+                    <div class="place__website_absolute">
                         <div class="place__website_head">URL</div>
                         <a class="place__website_url" href="http://vodlozero.ru/"
                            target="_blank">http://vodlozero.ru/</a>
@@ -192,11 +192,37 @@
             </div>
         </section>
 
-        <section class="videos"></section>
+        <section class="video">
+            <h1 class="content-title">В глубины Земли и в дальний космос</h1>
+            <h2 class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные
+                исследования</h2>
+            <div class="video__wrapper">
+                <div class="video__box">
+                    <div class="video__info">
+                        <div class="video__box_play"></div>
+                        <div class="video__time">12:10</div>
+                        <h1 class="video__title">Colors of Kamchatka</h1>
+                        <h2 class="video__subtitle">Director: Pavel Karykhalin</h2>
+                    </div>
+                </div>
+                <div class="video__box">
+                    <div class="video__info">
+                        <div class="video__box_play"></div>
+                        <div class="video__time">24:10</div>
+                        <h1 class="video__title">Обсерватория | Observatory</h1>
+                        <h2 class="video__subtitle">Director: Alexander Khudokon</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <section class="opinions"></section>
+        <section class="comments">
+            <h1 class="content-title">Фотографы, снимающие Россию</h1>
+            <h2 class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных
+                конкурсах</h2>
+        </section>
 
-        <section class="sheet"></section>
+        <section class="cover"></section>
     </main>
     <footer class="footer">
         <p class="footer__link">Карты</p>

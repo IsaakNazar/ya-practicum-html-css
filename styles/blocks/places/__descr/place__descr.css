@@ -1,0 +1,8 @@
+@import "_text/place__descr_text.css";
+
+@media screen and (max-width: 375px) {
+
+    .place__descr {
+        padding: 0 16px;
+    }
+}

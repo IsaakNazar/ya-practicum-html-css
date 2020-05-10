@@ -1,0 +1,15 @@
+.video__box {
+    position: relative;
+}
+
+.video__box:first-child {
+    background: url("../../../../assets/images/videos/kamchatka.png") no-repeat center;
+    width: 100%;
+    height: 400px;
+}
+
+.video__box:last-child {
+    background: url("../../../../assets/images/videos/observatory.png") no-repeat center;
+    width: 100%;
+    height: 400px;
+}

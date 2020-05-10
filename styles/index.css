@@ -1,12 +1,14 @@
 @import "../assets/fonts/inter.css";
 @import "blocks/header/header.css";
 @import "blocks/lead/lead.css";
-@import "blocks/preface/preface.css";
+@import "blocks/intro/intro.css";
 @import "blocks/photo-grid/photo-grid.css";
 @import "blocks/places/places.css";
-@import "blocks/videos/videos.css";
-@import "blocks/opinions/opinions.css";
-@import "blocks/sheet/sheet.css";
+@import "blocks/content-title/content-title.css";
+@import "blocks/content-subtitle/content-subtitle.css";
+@import "blocks/video/video.css";
+@import "blocks/comments/comments.css";
+@import "blocks/cover/cover.css";
 @import "blocks/footer/footer.css";
 @import "normalize.css";
 

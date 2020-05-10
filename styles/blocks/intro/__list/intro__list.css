@@ -1,0 +1,15 @@
+@import "intro__list_bold.css";
+
+.intro__list {
+    line-height: 20px;
+    font-size: 13px;
+    list-style-type: none;
+}
+
+
+@media screen and (max-width: 375px) {
+    .intro__list {
+        line-height: 19px;
+        font-size: 12px;
+    }
+}

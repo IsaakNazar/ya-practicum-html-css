@@ -1,0 +1,11 @@
+@import "__box/video__box.css";
+@import "__info/video__info.css";
+
+.video {
+    text-align: center;
+}
+
+.video__wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+}

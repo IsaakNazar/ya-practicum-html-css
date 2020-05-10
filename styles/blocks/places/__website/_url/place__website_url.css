@@ -1,0 +1,8 @@
+.place__website_url {
+    color: white;
+    font-size: 18px;
+}
+
+.place__website_url:hover {
+    text-decoration: none;
+}

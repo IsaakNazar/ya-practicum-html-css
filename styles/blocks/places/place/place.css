@@ -1,8 +1,8 @@
-@import "place/place.css";
+@import "../__title/place__title.css";
+@import "../__website/place__website.css";
+@import "../__image/place__image.css";
+@import "../__descr/place__descr.css";
 
-.places {
-    padding-top: 92px;
-}
 
 .place {
     display: grid;
@@ -13,9 +13,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .places {
-        padding: 0 48px;
-    }
 
     .place {
         grid-template-columns: repeat(auto-fill, minmax(340px, max-content));
@@ -25,9 +22,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .places {
-        padding: 0 24px;
-    }
 
     .place {
         grid-template-columns: repeat(auto-fill, minmax(280px, max-content));
@@ -36,13 +30,9 @@
 }
 
 @media screen and (max-width: 375px) {
-    .places {
-        padding: 0;
-    }
 
     .place {
         margin-top: 48px;
         grid-gap: 32px;
     }
-
 }

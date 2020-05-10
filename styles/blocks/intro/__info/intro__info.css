@@ -1,0 +1,10 @@
+.intro__info {
+    padding-inline-start: 0;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 375px) {
+    .intro__info {
+        margin-bottom: 64px;
+    }
+}
