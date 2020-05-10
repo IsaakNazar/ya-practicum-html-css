@@ -1,0 +1,55 @@
+.preface {
+    margin: 80px auto 0;
+    max-width: 984px;
+}
+
+.preface__title {
+    font-weight: 900;
+    font-size: 54px;
+}
+
+.preface__article {
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 680px;
+    margin: 48px 0 24px;
+}
+
+.preface__info_text {
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .preface {
+        padding: 0 24px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .preface {
+        margin-top: 64px;
+        padding: 0 16px;
+    }
+
+    .preface__title {
+        font-size: 32px;
+    }
+
+    .preface__article {
+        font-size: 16px;
+        margin: 32px 0;
+    }
+
+    .preface__info_text {
+        line-height: 19px;
+        font-size: 12px;
+    }
+}
+
