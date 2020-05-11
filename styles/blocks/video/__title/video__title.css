@@ -13,3 +13,9 @@
         margin: 8px 0 12px
     }
 }
+
+@media screen and (max-width: 375px) {
+    .video__title {
+        margin: 8px 0 2px
+    }
+}

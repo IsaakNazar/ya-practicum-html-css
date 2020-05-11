@@ -1,8 +1,30 @@
-.video__image:first-child {
-    background: url("../../../../assets/images/videos/kamchatka.png") no-repeat center;
+.video__image {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
 }
 
-.video__image:last-child {
-    background: url("../../../../assets/images/videos/observatory.png") no-repeat center;
-    background-size: contain;
+@media screen and (max-width: 1024px) {
+    .video__image {
+        height: calc(50vw * 0.63 - 30px);
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__image {
+        height: calc(100vw * 0.56 - 32px);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__image {
+        height: calc(100vw * 0.6 - 20px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__image {
+        height: calc(100vw * 0.66 - 20px);
+    }
 }

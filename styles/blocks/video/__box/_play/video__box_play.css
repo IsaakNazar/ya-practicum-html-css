@@ -1,14 +1,14 @@
 .video__box_play {
     cursor: pointer;
     fill: white;
-    transition: all .15s;
+    transition: fill .2s;
     position: absolute;
     left: 30px;
     top: 30px;
 }
 
 .video__box_play:hover {
-    fill: aquamarine;
+    fill: #ad7d8f;
 }
 
 @media screen and (max-width: 1024px) {

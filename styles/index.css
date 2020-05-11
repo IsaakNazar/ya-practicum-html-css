@@ -1,4 +1,4 @@
-@import "../assets/fonts/inter.css";
+@import "../assets/static/fonts/inter.css";
 @import "blocks/header/header.css";
 @import "blocks/lead/lead.css";
 @import "blocks/intro/intro.css";
@@ -10,7 +10,7 @@
 @import "blocks/comments/comments.css";
 @import "blocks/cover/cover.css";
 @import "blocks/footer/footer.css";
-@import "normalize.css";
+@import "../assets/static/normalize.css";
 
 
 .page {
